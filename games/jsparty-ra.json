@@ -1,0 +1,90 @@
+{
+  "title": "Frontend Feud",
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "",
+      "responses": [
+        {"rank": 1, "answer": "", "points": 35, "score": "35"},
+        {"rank": 2, "answer": "", "points": 26, "score": "26"},
+        {"rank": 3, "answer": "", "points": 7, "score": "7"},
+        {"rank": 4, "answer": "", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "",
+      "responses": [
+        {"rank": 1, "answer": "", "points": 30, "score": "30"},
+        {"rank": 2, "answer": "", "points": 11, "score": "11"},
+        {"rank": 3, "answer": "", "points": 11, "score": "11"},
+        {"rank": 4, "answer": "", "points": 9, "score": "9"},
+        {"rank": 5, "answer": "", "points": 9, "score": "9"},
+        {"rank": 6, "answer": "", "points": 7, "score": "7"},
+        {"rank": 7, "answer": "", "points": 7, "score": "7"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "",
+      "responses": [
+        {"rank": 1, "answer": "", "points": 44, "score": "44"},
+        {"rank": 2, "answer": "", "points": 31, "score": "31"},
+        {"rank": 3, "answer": "", "points": 9, "score": "9"},
+        {"rank": 4, "answer": "", "points": 6, "score": "6"},
+        {"rank": 5, "answer": "", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4",
+      "question": "",
+      "responses": [
+        {"rank": 1, "answer": "", "points": 10, "score": "10"},
+        {"rank": 2, "answer": "", "points": 9, "score": "9"},
+        {"rank": 3, "answer": "", "points": 8, "score": "8"},
+        {"rank": 4, "answer": "", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Inverted)",
+      "question": "",
+      "responses": [
+        {"rank": 1, "answer": "", "points": 5, "score": "26 (5 points)"},
+        {"rank": 2, "answer": "", "points": 10, "score": "24 (10 points)"},
+        {"rank": 3, "answer": "", "points": 15, "score": "8 (15 points)"},
+        {"rank": 4, "answer": "", "points": 20, "score": "7 (20 points)"},
+        {"rank": 5, "answer": "", "points": 25, "score": "5 (25 points"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "",
+      "responses": [
+        {"rank": 1, "answer": "", "points": 58, "score": "29 (58 points)"},
+        {"rank": 2, "answer": "", "points": 42, "score": "21 (42 points)"},
+        {"rank": 3, "answer": "", "points": 28, "score": "14 (28 points)"},
+        {"rank": 4, "answer": "", "points": 14, "score": "7 (14 points)"},
+        {"rank": 5, "answer": "", "points": 10, "score": "5 (10 points)"}
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Round 7 (Double)",
+      "question": "",
+      "responses": [
+        {"rank": 1, "answer": "", "points": 28, "score": "14 (28 points)"},
+        {"rank": 2, "answer": "", "points": 24, "score": "12 (24 points)"},
+        {"rank": 3, "answer": "", "points": 12, "score": "6 (12 points)"},
+        {"rank": 4, "answer": "", "points": 10, "score": "5 (10 points)"}
+      ]
+    }
+  ]
+}

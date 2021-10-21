@@ -1,0 +1,90 @@
+{
+  "title": "Gophers Say",
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "What is the least useful Go keyword?",
+      "responses": [
+        {"rank": 1, "answer": "goto", "points": 35, "score": "35"},
+        {"rank": 2, "answer": "fallthrough", "points": 26, "score": "26"},
+        {"rank": 3, "answer": "New", "points": 7, "score": "7"},
+        {"rank": 4, "answer": "Panic", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "What was your first programming language?",
+      "responses": [
+        {"rank": 1, "answer": "Basic / VB / etc", "points": 30, "score": "30"},
+        {"rank": 2, "answer": "Pascal", "points": 11, "score": "11"},
+        {"rank": 3, "answer": "C", "points": 11, "score": "11"},
+        {"rank": 4, "answer": "Python", "points": 9, "score": "9"},
+        {"rank": 5, "answer": "PHP", "points": 9, "score": "9"},
+        {"rank": 6, "answer": "Java", "points": 7, "score": "7"},
+        {"rank": 7, "answer": "C++", "points": 7, "score": "7"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "Which IDE are you most productive in?",
+      "responses": [
+        {"rank": 1, "answer": "VS Code", "points": 44, "score": "44"},
+        {"rank": 2, "answer": "GoLand", "points": 31, "score": "31"},
+        {"rank": 3, "answer": "Vim / Neovim", "points": 9, "score": "9"},
+        {"rank": 4, "answer": "IntelliJ IDEA", "points": 6, "score": "6"},
+        {"rank": 5, "answer": "Emacs", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4",
+      "question": "Which text abbreviation do you use the most?",
+      "responses": [
+        {"rank": 1, "answer": "LOL", "points": 10, "score": "10"},
+        {"rank": 2, "answer": "e.g.", "points": 9, "score": "9"},
+        {"rank": 3, "answer": "LGTM", "points": 8, "score": "8"},
+        {"rank": 4, "answer": "IMO / IMHO", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "IIRC", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "Don't use abbreviations", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Inverted)",
+      "question": "If I weren’t using Go to write code, I’d be using…",
+      "responses": [
+        {"rank": 1, "answer": "Python", "points": 5, "score": "26 (5 points)"},
+        {"rank": 2, "answer": "Rust", "points": 10, "score": "24 (10 points)"},
+        {"rank": 3, "answer": "Java", "points": 15, "score": "8 (15 points)"},
+        {"rank": 4, "answer": "C#", "points": 20, "score": "7 (20 points)"},
+        {"rank": 5, "answer": "JavaScript", "points": 25, "score": "5 (25 points"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "The most useful package in the standard library is…",
+      "responses": [
+        {"rank": 1, "answer": "net/http", "points": 58, "score": "29 (58 points)"},
+        {"rank": 2, "answer": "fmt", "points": 42, "score": "21 (42 points)"},
+        {"rank": 3, "answer": "io", "points": 28, "score": "14 (28 points)"},
+        {"rank": 4, "answer": "testing", "points": 14, "score": "7 (14 points)"},
+        {"rank": 5, "answer": "sync", "points": 10, "score": "5 (10 points)"}
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Round 7 (Double)",
+      "question": "Which popular development practice would you like to outlaw?",
+      "responses": [
+        {"rank": 1, "answer": "Agile/Scrum/Sprints", "points": 28, "score": "14 (28 points)"},
+        {"rank": 2, "answer": "TDD/BDD/DDD", "points": 24, "score": "12 (24 points)"},
+        {"rank": 3, "answer": "waterfall", "points": 12, "score": "6 (12 points)"},
+        {"rank": 4, "answer": "pair programming", "points": 10, "score": "5 (10 points)"}
+      ]
+    }
+  ]
+}
