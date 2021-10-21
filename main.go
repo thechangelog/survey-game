@@ -14,7 +14,19 @@ import (
 type Game struct {
 	Title  string
 	Theme string
+	Teams []Team
 	Rounds []Round
+}
+
+type Team struct {
+	Name string
+	Class string
+	Members []Member
+}
+
+type Member struct {
+	Name string
+	Image string
 }
 
 type Round struct {

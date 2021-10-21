@@ -1,5 +1,25 @@
 {
   "title": "Frontend Feud",
+  "teams": [
+    {
+      "name": "Team 1",
+      "class": "one",
+      "members": [
+        {"name": "Tara", "image": "https://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_400x400.jpg"},
+        {"name": "Nick", "image": "https://pbs.twimg.com/profile_images/1436341747571953670/cf8y1cbJ_400x400.jpg"},
+        {"name": "Colby", "image": "https://pbs.twimg.com/profile_images/1347599595115868162/dSzyyv9m_400x400.jpg"}
+      ]
+    },
+    {
+      "name": "Team 2",
+      "class": "two",
+      "members": [
+        {"name": "Brandon", "image": "https://pbs.twimg.com/profile_images/1377651208295493633/ynn33bpv_400x400.jpg"},
+        {"name": "Yuraima", "image": "https://pbs.twimg.com/profile_images/1246053154740830209/aayslXDM_400x400.jpg"},
+        {"name": "Michael", "image": "https://pbs.twimg.com/profile_images/1417282972273713160/MTMjeZEb_400x400.png"}
+      ]
+    }
+  ],
   "rounds": [
     {
       "number": 1,

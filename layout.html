@@ -9,7 +9,18 @@
 </head>
 <body>
   <div class="container">
-    <h1><span class="team-score" id="one">TEAM 1: 0</span> <span class="team-score" id="two">TEAM 2: 0</span></h1>
+    {{range .Game.Teams}}
+    <div class="team {{.Class}}">
+      {{range .Members}}
+      <div class="member">
+        <div class="avatar"><img src="{{.Image}}"></div>
+      <div class="name">{{.Name}}</div>
+      </div>
+      {{end}}
+    </div>
+    {{end}}
+
+    <h1><span class="team-score one" id="one">TEAM 1: 0</span> <span class="team-score two" id="two">TEAM 2: 0</span></h1>
 
     <h3 class="question">{{.Round.Question}}</h3>
     <div class="board">

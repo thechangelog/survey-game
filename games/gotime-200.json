@@ -1,5 +1,27 @@
 {
   "title": "Gophers Say",
+  "teams": [
+    {
+      "name": "Team 1",
+      "class": "one",
+      "members": [
+        {"name": "Erik", "image": "https://pbs.twimg.com/profile_images/1017165157636689920/VIKpTlTD_400x400.jpg"},
+        {"name": "Natalie", "image": "https://pbs.twimg.com/profile_images/2687722789/0146561e2d575b3e7104e7e94be62b1c_400x400.jpeg"},
+        {"name": "Mark", "image": "https://pbs.twimg.com/profile_images/1014138638848778240/qGCekViL_400x400.png"},
+        {"name": "Angelica", "image": "https://pbs.twimg.com/profile_images/1353781054650392592/uPNIX0WR_400x400.jpg"}
+      ]
+    },
+    {
+      "name": "Team 2",
+      "class": "two",
+      "members": [
+        {"name": "Brian", "image": "https://pbs.twimg.com/profile_images/1260333209335795717/9BVgiBM-_400x400.jpg"},
+        {"name": "Carlisia", "image": "https://pbs.twimg.com/profile_images/1216887433192562689/DUZEZZ6D_400x400.jpg"},
+        {"name": "Johnny", "image": "https://pbs.twimg.com/profile_images/1225245616604942341/KV4HeSLv_400x400.jpg"},
+        {"name": "Kris", "image": "https://pbs.twimg.com/profile_images/991661931583983617/tuH-Yotm_400x400.jpg"}
+      ]
+    }
+  ],
   "rounds": [
     {
       "number": 1,
