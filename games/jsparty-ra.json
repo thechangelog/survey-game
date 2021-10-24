@@ -24,86 +24,83 @@
     {
       "number": 1,
       "title": "Round 1",
-      "question": "",
+      "question": "Name a common file extension found in React apps",
       "responses": [
-        {"rank": 1, "answer": "", "points": 35, "score": "35"},
-        {"rank": 2, "answer": "", "points": 26, "score": "26"},
-        {"rank": 3, "answer": "", "points": 7, "score": "7"},
-        {"rank": 4, "answer": "", "points": 5, "score": "5"}
+        {"rank": 1, "answer": ".jsx", "points": 40, "score": "40"},
+        {"rank": 2, "answer": ".tsx", "points": 34, "score": "34"},
+        {"rank": 3, "answer": ".js", "points": 13, "score": "13"},
+        {"rank": 4, "answer": ".ts", "points": 5, "score": "5"}
       ]
     },
     {
       "number": 2,
       "title": "Round 2",
-      "question": "",
+      "question": "What is your favorite static site generator?",
       "responses": [
-        {"rank": 1, "answer": "", "points": 30, "score": "30"},
-        {"rank": 2, "answer": "", "points": 11, "score": "11"},
-        {"rank": 3, "answer": "", "points": 11, "score": "11"},
-        {"rank": 4, "answer": "", "points": 9, "score": "9"},
-        {"rank": 5, "answer": "", "points": 9, "score": "9"},
-        {"rank": 6, "answer": "", "points": 7, "score": "7"},
-        {"rank": 7, "answer": "", "points": 7, "score": "7"}
+        {"rank": 1, "answer": "GatsbyJS", "points": 33, "score": "33"},
+        {"rank": 2, "answer": "NextJS", "points": 23, "score": "23"},
+        {"rank": 3, "answer": "Eleventy", "points": 11, "score": "11"},
+        {"rank": 4, "answer": "None/Hand-written", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "SvelteKit", "points": 5, "score": "5"}
       ]
     },
     {
       "number": 3,
       "title": "Round 3",
-      "question": "",
+      "question": "Name a protocol that all web apps rely upon",
       "responses": [
-        {"rank": 1, "answer": "", "points": 44, "score": "44"},
-        {"rank": 2, "answer": "", "points": 31, "score": "31"},
-        {"rank": 3, "answer": "", "points": 9, "score": "9"},
-        {"rank": 4, "answer": "", "points": 6, "score": "6"},
-        {"rank": 5, "answer": "", "points": 5, "score": "5"}
+        {"rank": 1, "answer": "HTTP", "points": 71, "score": "71"},
+        {"rank": 2, "answer": "HTTPS", "points": 16, "score": "16"},
+        {"rank": 3, "answer": "TCP/IP", "points": 5, "score": "5"}
       ]
     },
     {
       "number": 4,
       "title": "Round 4",
-      "question": "",
+      "question": "Name a character trait that many successful developers have in common",
       "responses": [
-        {"rank": 1, "answer": "", "points": 10, "score": "10"},
-        {"rank": 2, "answer": "", "points": 9, "score": "9"},
-        {"rank": 3, "answer": "", "points": 8, "score": "8"},
-        {"rank": 4, "answer": "", "points": 7, "score": "7"},
-        {"rank": 5, "answer": "", "points": 6, "score": "6"},
-        {"rank": 6, "answer": "", "points": 5, "score": "5"}
+        {"rank": 1, "answer": "grit/persistence", "points": 19, "score": "19"},
+        {"rank": 2, "answer": "curious/inquisitive", "points": 15, "score": "15"},
+        {"rank": 3, "answer": "communicator", "points": 8, "score": "8"},
+        {"rank": 4, "answer": "intelligent/problem solver", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "laziness", "points": 6, "score": "6"}
       ]
     },
     {
       "number": 5,
       "title": "Round 5 (Inverted)",
-      "question": "",
+      "question": "Which day of the week do you get the most coding done?",
       "responses": [
-        {"rank": 1, "answer": "", "points": 5, "score": "26 (5 points)"},
-        {"rank": 2, "answer": "", "points": 10, "score": "24 (10 points)"},
-        {"rank": 3, "answer": "", "points": 15, "score": "8 (15 points)"},
-        {"rank": 4, "answer": "", "points": 20, "score": "7 (20 points)"},
-        {"rank": 5, "answer": "", "points": 25, "score": "5 (25 points"}
+        {"rank": 1, "answer": "Tuesday", "points": 5, "score": "30 (5 points)"},
+        {"rank": 2, "answer": "Wednesday", "points": 10, "score": "16 (10 points)"},
+        {"rank": 3, "answer": "Thursday", "points": 15, "score": "15 (15 points)"},
+        {"rank": 4, "answer": "Monday", "points": 20, "score": "12 (20 points)"},
+        {"rank": 5, "answer": "Friday", "points": 25, "score": "11 (25 points)"},
+        {"rank": 6, "answer": "Every day", "points": 30, "score": "5 (30 points)"}
       ]
     },
     {
       "number": 6,
       "title": "Round 6 (Double)",
-      "question": "",
+      "question": "What's the first thing you do when your code doesn't work right?",
       "responses": [
-        {"rank": 1, "answer": "", "points": 58, "score": "29 (58 points)"},
-        {"rank": 2, "answer": "", "points": 42, "score": "21 (42 points)"},
-        {"rank": 3, "answer": "", "points": 28, "score": "14 (28 points)"},
-        {"rank": 4, "answer": "", "points": 14, "score": "7 (14 points)"},
-        {"rank": 5, "answer": "", "points": 10, "score": "5 (10 points)"}
+        {"rank": 1, "answer": "add console.log", "points": 32, "score": "16 (32 points)"},
+        {"rank": 2, "answer": "refresh/re-run", "points": 30, "score": "15 (30 points)"},
+        {"rank": 3, "answer": "swear/cry/sigh", "points": 26, "score": "13 (26 points)"},
+        {"rank": 4, "answer": "use debugger", "points": 22, "score": "11 (22 points)"},
+        {"rank": 5, "answer": "check logs/errors", "points": 20, "score": "10 (20 points)"}
       ]
     },
     {
       "number": 7,
       "title": "Round 7 (Double)",
-      "question": "",
+      "question": "Name one thing React devs commonly argue about",
       "responses": [
-        {"rank": 1, "answer": "", "points": 28, "score": "14 (28 points)"},
-        {"rank": 2, "answer": "", "points": 24, "score": "12 (24 points)"},
-        {"rank": 3, "answer": "", "points": 12, "score": "6 (12 points)"},
-        {"rank": 4, "answer": "", "points": 10, "score": "5 (10 points)"}
+        {"rank": 1, "answer": "state management", "points": 28, "score": "14 (28 points)"},
+        {"rank": 2, "answer": "TypeScript", "points": 22, "score": "11 (22 points)"},
+        {"rank": 3, "answer": "CSS in JS", "points": 20, "score": "10 (20 points)"},
+        {"rank": 4, "answer": "tabs vs spaces", "points": 14, "score": "7 (14 points)"},
+        {"rank": 5, "answer": "component style", "points": 12, "score": "6 (12 points)"}
       ]
     }
   ]
