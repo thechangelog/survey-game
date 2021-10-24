@@ -60,10 +60,9 @@ button {
   justify-content: center;
   align-items: center;
   width: 80%;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: 70%;
 }
 
 .team {
@@ -134,8 +133,15 @@ button {
   text-align: center;
   font-size: 28px;
   text-transform: uppercase;
-  color: white;
-  text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+  color: #101820;
+  font-weight: bold;
+}
+
+.rank {
+  color:  white;
+  background: #101820;
+  border-radius: 50%;
+  padding: 3px 12px;
 }
 
 .left {

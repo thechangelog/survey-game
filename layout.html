@@ -26,7 +26,9 @@
     <div class="board">
       {{range .Round.Responses}}
       <div class="card" data-points="{{.Points}}">
-        <div class="front">{{.Rank}}</div>
+        <div class="front">
+          <span class="rank">{{.Rank}}</span>
+        </div>
         <div class="back">
           <div class="answer">{{.Answer}}</div>
           <div class="score">{{.Score}}</div>
