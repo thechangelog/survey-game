@@ -3,8 +3,8 @@
 A Family Feud style board game interface used by Changelog for the [JS Party](https://jsparty.fm) and [Go Time](https://gotime.fm) podcasts.
 
 <div align="center">
-	<img width="450" src="https://github.com/thechangelog/survey-game/raw/static/images/jsparty-example.png" alt="JS Party Example">
-	<img width="450" src="https://github.com/thechangelog/survey-game/raw/static/images/gotime-example.png" alt="Go Time Example">
+	<img width="400" src="https://github.com/thechangelog/survey-game/raw/main/static/images/jsparty-example.png" alt="JS Party Example">
+	<img width="400" src="https://github.com/thechangelog/survey-game/raw/main/static/images/gotime-example.png" alt="Go Time Example">
 </div>
 
 This project was adapted from [a CodePen](https://codepen.io/nicholasjackson827/pen/vLyLqg) with the "backend" written in Go (by a non-gopher).
