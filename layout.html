@@ -20,7 +20,12 @@
     </div>
     {{end}}
 
-    <h1><span class="team-score one" id="one">TEAM 1: 0</span> <span class="team-score two" id="two">TEAM 2: 0</span></h1>
+    <h1>
+      {{range .Game.Teams}}
+        <span class="team-score {{.Class}}" id="{{.Class}}">{{.Name}}: <span class="count">0</span></span>&nbsp;
+      {{end}}
+    </h1>
+
 
     <h3 class="question">{{.Round.Question}}</h3>
     <div class="board">

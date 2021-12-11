@@ -38,35 +38,35 @@ $("#points").click(function() {
   } else if (activeTeam === "teamOne") {
     teamOneScore += roundScore;
     localStorage.setItem(teamOne, teamOneScore);
-    $("#one").text("TEAM 1: " + teamOneScore);
+    $("#one").find(".count").text(teamOneScore);
   } else {
     teamTwoScore += roundScore;
     localStorage.setItem(teamTwo, teamTwoScore);
-    $("#two").text("TEAM 2: " + teamTwoScore);
+    $("#two").find(".count").text(teamTwoScore);
   }
 
   roundScore = 0;
   $("#score").text(roundScore);
 });
 
-$("#one").text("TEAM 1: " + teamOneScore);
-$("#two").text("TEAM 2: " + teamTwoScore);
+$("#one").find(".count").text(teamOneScore);
+$("#two").find(".count").text(teamTwoScore);
 
 function reset() {
   localStorage.setItem(teamOne, 0);
   localStorage.setItem(teamTwo, 0);
-  $("#one").text("TEAM 1: " + 0);
-  $("#two").text("TEAM 2: " + 0);
+  $("#one").find(".count").text(0);
+  $("#two").find(".count").text(0);
 }
 
 function setTeamOne(score) {
   score = parseInt(score, 10);
   localStorage.setItem(teamOne, score);
-  $("#one").text("TEAM 1: " + score);
+  $("#one").find(".count").text(score);
 }
 
 function setTeamTwo(score) {
   score = parseInt(score, 10);
   localStorage.setItem(teamTwo, score);
-  $("#two").text("TEAM 2: " + score);
+  $("#two").find(".count").text(score);
 }
