@@ -113,5 +113,7 @@ func main() {
 		index(w, r, game)
 	})
 
+	fmt.Println("Listening on http://localhost:8000")
+
 	http.ListenAndServe(":8000", nil)
 }
