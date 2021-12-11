@@ -1,0 +1,100 @@
+{
+  "title": "Gophers Say",
+  "teams": [
+    {
+      "name": "team[0]",
+      "class": "one",
+      "members": [
+        {"name": "Natalie", "image": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1627150106/l2k8ewecypwnjvrpzn4t.png"},
+        {"name": "Steve", "image": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1570196019/u71hzflg9vicjiumh2qi.jpg"},
+        {"name": "Julie", "image": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1637705340/ajurgvwiujs88zg540m6.jpg"}
+      ]
+    },
+    {
+      "name": "team[1]",
+      "class": "two",
+      "members": [
+        {"name": "Jon", "image": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/grslzpgwwnqu3i2gu0ug.png"},
+        {"name": "Katie", "image": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1561137228/kbvpz8gaosmsfuzrxvn5.jpg"},
+        {"name": "Rob", "image": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1637610940/biib0eafulyl2ydvfrhv.jpg"}
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "Describe the Go community with just one word",
+      "responses": [
+        {"rank": 1, "answer": "Awesome", "points": 17, "score": "17"},
+        {"rank": 2, "answer": "Welcoming", "points": 9, "score": "9"},
+        {"rank": 3, "answer": "Friendly", "points": 8, "score": "8"},
+        {"rank": 4, "answer": "Helpful", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "Fun", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "Opinionated", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "Name a place (outside your house) where you like to code/work",
+      "responses": [
+        {"rank": 1, "answer": "Coffee shop/cafe", "points": 38, "score": "38"},
+        {"rank": 2, "answer": "Park/garden/yard", "points": 26, "score": "26"},
+        {"rank": 3, "answer": "The office", "points": 21, "score": "21"},
+        {"rank": 4, "answer": "The library", "points": 14, "score": "14"},
+        {"rank": 5, "answer": "The bar/pub", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "Nowhere/Don't leave", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "The most useful Go keyword is...",
+      "responses": [
+        {"rank": 1, "answer": "go", "points": 29, "score": "29"},
+        {"rank": 2, "answer": "func", "points": 18, "score": "18"},
+        {"rank": 3, "answer": "defer", "points": 11, "score": "11"},
+        {"rank": 4, "answer": "for", "points": 10, "score": "10"},
+        {"rank": 5, "answer": "interface", "points": 9, "score": "9"},
+        {"rank": 6, "answer": "select", "points": 7, "score": "7"},
+        {"rank": 7, "answer": "struct", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4",
+      "question": "The best thing about the tech industry is...",
+      "responses": [
+        {"rank": 1, "answer": "The tech/innovation", "points": 26, "score": "26"},
+        {"rank": 2, "answer": "The pay/benefits", "points": 20, "score": "20"},
+        {"rank": 3, "answer": "Problem solving", "points": 19, "score": "19"},
+        {"rank": 4, "answer": "The people/community", "points": 15, "score": "15"},
+        {"rank": 5, "answer": "WFH/flexibility", "points": 10, "score": "10"},
+        {"rank": 6, "answer": "Opportunity/impact change", "points": 8, "score": "8"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5",
+      "question": "The worst thing about the tech industry is...",
+      "responses": [
+        {"rank": 1, "answer": "The people/culture", "points": 49, "score": "49"},
+        {"rank": 2, "answer": "Too much to learn", "points": 23, "score": "23"},
+        {"rank": 3, "answer": "The pressure/long hours", "points": 16, "score": "16"},
+        {"rank": 4, "answer": "Bad practices/existing code", "points": 13, "score": "13"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "Describe the Go language with just one word",
+      "responses": [
+        {"rank": 1, "answer": "Simple", "points": 50, "score": "25 (50 points)"},
+        {"rank": 2, "answer": "Pragmatic", "points": 24, "score": "12 (24 points)"},
+        {"rank": 3, "answer": "Fast", "points": 18, "score": "9 (18 points)"},
+        {"rank": 4, "answer": "Fun", "points": 10, "score": "5 (10 points)"}
+      ]
+    }
+  ]
+}
