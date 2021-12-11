@@ -117,7 +117,7 @@ button {
 
 .board {
   background-color: #101820;
-  width: 700px;
+  width: 720px;
   border: 5px solid #222;
   border-radius: 15px;
   padding: 5px 0;
@@ -126,12 +126,12 @@ button {
 .card {
   cursor: pointer;
   display: inline-block;
-  width: 680px;
+  width: 700px;
   margin: 5px 10px 0px 10px;
   height: 60px;
   line-height: 60px;
   text-align: center;
-  font-size: 28px;
+  font-size: 25px;
   text-transform: uppercase;
   color: #101820;
   font-weight: bold;
@@ -150,13 +150,13 @@ button {
 
 .answer {
   float: left;
-  width: 320px;
+  width: 380px;
   text-align: left;
   padding-left:  20px;
 }
 
 .score {
-  width: 320px;
+  width: 280px;
   float: right;
   text-align: right;
   padding-right: 20px;
