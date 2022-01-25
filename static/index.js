@@ -52,6 +52,17 @@ $("#points").click(function() {
 $("#one").find(".count").text(teamOneScore);
 $("#two").find(".count").text(teamTwoScore);
 
+$(".member").click(function() {
+  let $member = $(this);
+
+  if ($member.hasClass("active")) {
+    $member.removeClass("active").addClass("missed");
+  } else {
+    $member.addClass("active");
+    $(".member").not($member).removeClass("active");
+  }
+});
+
 function reset() {
   localStorage.setItem(teamOne, 0);
   localStorage.setItem(teamTwo, 0);

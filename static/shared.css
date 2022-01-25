@@ -80,6 +80,11 @@ button {
 .member {
   height:  120px;
   margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.member.missed {
+  filter: opacity(0.5) drop-shadow(0 0 0 red);
 }
 
 .member img {

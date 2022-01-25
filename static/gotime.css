@@ -16,6 +16,10 @@ body::before {
   border:  3px solid #59CBE8;
 }
 
+.member.active img {
+  filter: drop-shadow(0 0 30px #59CBE8);
+}
+
 .board {
   border: 5px solid #59CBE8;
 }
