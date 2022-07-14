@@ -1,23 +1,32 @@
-var teamOne = "teamOne";
-var teamTwo = "teamTwo";
-var teamOneScore = parseInt(localStorage.getItem(teamOne), 10) || 0;
-var teamTwoScore = parseInt(localStorage.getItem(teamTwo), 10) || 0;
-var roundScore = 0;
-var activeTeam;
+let teamOne = "teamOne";
+let teamTwo = "teamTwo";
+let teamOneScore = parseInt(localStorage.getItem(teamOne), 10) || 0;
+let teamTwoScore = parseInt(localStorage.getItem(teamTwo), 10) || 0;
+let roundScore = 0;
+let activeTeam;
 
 $(".card").flip({
-  axis: 'x',
-  speed: 300
+  axis: "x",
+  speed: 300,
+  trigger: "manual"
 });
 
 
 $(".card").click(function() {
-  $(this).flip(true);
-  var toAdd = parseInt($(this).data("points"), 10);
-  console.log(toAdd);
-  roundScore += toAdd;
+  let $card = $(this);
+  let flip = $card.data("flip-model");
+  let points = parseInt($card.data("points"), 10);
+
+  if (flip.isFlipped) {
+    $card.flip(false)
+    roundScore -= points;
+  } else {
+    $card.flip(true)
+    roundScore += points;
+  }
+
   $("#score").text(roundScore);
-});
+})
 
 $("#one").click(function() {
   activeTeam = teamOne;
@@ -58,7 +67,7 @@ $(".member").click(function() {
   if ($member.hasClass("active")) {
     $member.removeClass("active").addClass("missed");
   } else {
-    $member.addClass("active");
+    $member.removeClass("missed").addClass("active");
     $(".member").not($member).removeClass("active");
   }
 });
