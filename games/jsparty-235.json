@@ -1,0 +1,103 @@
+{
+  "title": "Frontend Feud",
+  "teams": [
+    {
+      "name": "ShopTalk",
+      "class": "one",
+      "members": [
+        {"name": "Dave", "image": "https://secure.gravatar.com/avatar/0988796fb50136535a69cea314396cfa.jpg?s=300&d=mm"},
+        {"name": "Chris", "image": "https://cdn.changelog.com/uploads/avatars/people/9ODy/avatar_large.jpg?v=63699662104"},
+        {"name": "Amelia", "image": "https://secure.gravatar.com/avatar/c96c04d901206fecae56218f28bdb787.jpg?s=300&d=mm"}
+      ]
+    },
+    {
+      "name": "CSS Pod",
+      "class": "two",
+      "members": [
+        {"name": "Una", "image": "https://cdn.changelog.com/uploads/avatars/people/9N7e9/avatar_large.jpeg?v=63787616586"},
+        {"name": "Adam", "image": "https://cdn.changelog.com/uploads/avatars/people/L1wa/avatar_large.jpeg?v=63824792813"},
+        {"name": "Nick", "image": "https://cdn.changelog.com/uploads/avatars/people/XGd/avatar_large.jpg?v=63740463771"}
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "Name your favorite programming language that is not HTML, CSS, or JS",
+      "responses": [
+        {"rank": 1, "answer": "Python", "points": 33, "score": "33"},
+        {"rank": 2, "answer": "TypeScript", "points": 20, "score": "20"},
+        {"rank": 3, "answer": "Rust", "points": 19, "score": "19"},
+        {"rank": 4, "answer": "Go", "points": 11, "score": "11"},
+        {"rank": 5, "answer": "C#", "points": 9, "score": "9"},
+        {"rank": 6, "answer": "PHP", "points": 6, "score": "6"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "Name someone who helps many people learn HTML, CSS, and/or JS",
+      "responses": [
+        {"rank": 1, "answer": "Wes Bos", "points": 49, "score": "49"},
+        {"rank": 2, "answer": "Chris Coyier", "points": 13, "score": "13"},
+        {"rank": 3, "answer": "JS Party", "points": 7, "score": "7"},
+        {"rank": 4, "answer": "freeCodeCamp", "points": 6, "score": "6"},
+        {"rank": 5, "answer": "Brad Traversy", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "Which emoji do you use most often in commit messages?",
+      "responses": [
+        {"rank": 1, "answer": "None", "points": 42, "score": "42"},
+        {"rank": 2, "answer": "Smiles 😄 😅 😎 😊 😇", "points": 19, "score": "19"},
+        {"rank": 3, "answer": "Poop 💩", "points": 9, "score": "9"},
+        {"rank": 4, "answer": "Shrugs 🤷‍♀️ 🤷 🤷‍♂️", "points": 8, "score": "8"},
+        {"rank": 5, "answer": "Rocket 🚀", "points": 8, "score": "8"},
+        {"rank": 6, "answer": "Celebrations 🎉 🥳 🎊 🙌", "points": 7, "score": "7"},
+        {"rank": 7, "answer": "Thumbs up 👍", "points": 6, "score": "6"}
+      ]
+    },
+      {
+        "number": 4,
+        "title": "Round 4 (Inverted)",
+        "question": "Name a website frequented by software developers",
+        "responses": [
+          {"rank": 1, "answer": "Stack Overflow", "points": 5, "score": "65 (5 points)"},
+          {"rank": 2, "answer": "MDN", "points": 10, "score": "22 (10 points)"},
+          {"rank": 3, "answer": "GitHub", "points": 15, "score": "12 (15 points)"},
+          {"rank": 4, "answer": "Hacker News", "points": 20, "score": "9 (20 points)"},
+          {"rank": 5, "answer": "Google", "points": 25, "score": "8 (25 points)"},
+          {"rank": 6, "answer": "Twitter", "points": 30, "score": "5 (30 points)"}
+        ]
+      },
+    {
+      "number": 5,
+      "title": "Round 5",
+      "question": "Name a place (outside your house) where you like to code/work",
+      "responses": [
+        {"rank": 1, "answer": "Coffee shop/cafe", "points": 38, "score": "38"},
+        {"rank": 2, "answer": "Park/garden/yard", "points": 26, "score": "26"},
+        {"rank": 3, "answer": "The office", "points": 21, "score": "21"},
+        {"rank": 4, "answer": "The library", "points": 14, "score": "14"},
+        {"rank": 5, "answer": "The bar/pub", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "Nowhere/Don't leave", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "What's the first thing you do when you think of a new project/idea?",
+      "responses": [
+        {"rank": 1, "answer": "Write down/add to list", "points": 72, "score": "36 (72 points)"},
+        {"rank": 2, "answer": "Research/plan/brainstorm", "points": 62, "score": "31 (62 points)"},
+        {"rank": 3, "answer": "Start/git repo/code", "points": 48, "score": "24 (48 points)"},
+        {"rank": 4, "answer": "Name it/buy domain", "points": 34, "score": "17 (34 points)"},
+        {"rank": 5, "answer": "Draw/whiteboard/prototype", "points": 28, "score": "14 (28 points)"},
+        {"rank": 6, "answer": "Tell someone", "points": 20, "score": "10 (20 points)"}
+      ]
+    }
+  ]
+}
