@@ -1,0 +1,85 @@
+{
+  "title": "Gophers Say",
+  "teams": [
+    {
+      "name": "team[0]",
+      "class": "one",
+      "members": [
+        {"name": "Natalie",  "image": "https://pbs.twimg.com/profile_images/2687722789/0146561e2d575b3e7104e7e94be62b1c_400x400.jpeg"},
+        {"name": "Robert", "image": "https://pbs.twimg.com/profile_images/1512470495421079558/6p4Ij_vy_400x400.jpg"},
+        {"name": "Ronna",    "image": "https://pbs.twimg.com/profile_images/900276260307427328/jpnnfqL8_400x400.jpg"}
+
+      ]
+    },
+    {
+      "name": "team[1]",
+      "class": "two",
+      "members": [
+        {"name": "Tamir",  "image": "https://cdn.changelog.com/uploads/avatars/people/b0O77/avatar_medium.jpeg?v=63826406614"},
+        {"name": "V Korbes", "image": "https://pbs.twimg.com/profile_images/1533160359812546560/FLy3l-Ry_400x400.jpg"},
+        {"name": "Konrad", "image": "https://pbs.twimg.com/profile_images/1548914003081957376/xP1q-ozD_400x400.jpg"}
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "Where's the first place you turn for Go knowledge?",
+      "responses": [
+        {"rank": 1, "answer": "Google / DDG", "points": 25, "score": "25"},
+        {"rank": 2, "answer": "go.dev", "points": 21, "score": "21"},
+        {"rank": 3, "answer": "The docs", "points": 14, "score": "14"},
+        {"rank": 4, "answer": "Go Time", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "Describe the Go language with just one word",
+      "responses": [
+        {"rank": 1, "answer": "Simple", "points": 28, "score": "28"},
+        {"rank": 2, "answer": "Opinionated", "points": 12, "score": "12"},
+        {"rank": 3, "answer": "Fun", "points": 9, "score": "9"},
+        {"rank": 4, "answer": "Awesome", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "Fast", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "Name an animal that reminds you of a gopher",
+      "responses": [
+        {"rank": 1, "answer": "Gopher", "points": 15, "score": "15"},
+        {"rank": 2, "answer": "Beaver", "points": 13, "score": "13"},
+        {"rank": 3, "answer": "Hamster", "points": 8, "score": "8"},
+        {"rank": 4, "answer": "Groundhog", "points": 6, "score": "6"},
+        {"rank": 5, "answer": "Marmot", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4 (Inverted)",
+      "question": "Which day of the week do you get the most coding done?",
+      "responses": [
+        {"rank": 1, "answer": "Tuesday", "points": 5, "score": "32 (5 points)"},
+        {"rank": 2, "answer": "Wednesday", "points": 10, "score": "17 (10 points)"},
+        {"rank": 3, "answer": "Monday", "points": 15, "score": "16 (15 points)"},
+        {"rank": 4, "answer": "Thursday", "points": 20, "score": "13 (20 points)"},
+        {"rank": 5, "answer": "Friday", "points": 25, "score": "9 (25 points)"},
+        {"rank": 6, "answer": "Every day", "points": 30, "score": "6 (30 points)"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Double)",
+      "question": "Describe GopherCon EU with just one word",
+      "responses": [
+        {"rank": 1, "answer": "Awesome", "points": 38, "score": "19 (38 points)"},
+        {"rank": 2, "answer": "Fun", "points": 34, "score": "17 (34 points)"},
+        {"rank": 3, "answer": "Exciting", "points": 32, "score": "16 (32 points)"},
+        {"rank": 4, "answer": "Cool", "points": 26, "score": "13 (26 points"}
+      ]
+    }
+  ]
+}
