@@ -10,6 +10,14 @@ body::before {
   background-color: #FFCD00;
 }
 
+.team-score .name {
+  border-bottom: 1px solid #FFCD00;
+}
+
+.team-score.active .name {
+  border-bottom: 1px solid #101820;
+}
+
 .member img {
   border:  3px solid #FFCD00;
 }

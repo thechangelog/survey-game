@@ -22,7 +22,7 @@
 
     <h1>
       {{range .Game.Teams}}
-        <span class="team-score {{.Class}}" id="{{.Class}}">{{.Name}}: <span class="count">0</span></span>&nbsp;
+        <span class="team-score {{.Class}}" id="{{.Class}}"><span class="name">{{.Name}}</span><br/><span class="count">0</span></span>&nbsp;
       {{end}}
     </h1>
 

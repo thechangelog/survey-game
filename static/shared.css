@@ -34,7 +34,7 @@ body::before {
 
 h1 {
   text-align: center;
-  font-size: 32px;
+  font-size: 33px;
   margin-bottom: -5px;
 }
 
@@ -100,6 +100,9 @@ button {
 
 .question {
   font-family: "Sana Sans", sans-serif;
+  font-size: 32px;
+  text-shadow: 10px -2px 4px #101820;
+  max-width: 720px;
 }
 
 .team-score {
