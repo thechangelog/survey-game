@@ -1,0 +1,97 @@
+{
+  "title": "Frontend Feud",
+  "teams": [
+    {
+      "name": "keyframers",
+      "class": "one",
+      "members": [
+        {"name": "", "image": "https://pbs.twimg.com/profile_images/1111299245548670976/Ewxov69n_400x400.png"},
+        {"name": "David", "image": "https://pbs.twimg.com/profile_images/619677584805208064/RwwbnNpi_400x400.jpg"},
+        {"name": "Shaw", "image": "https://pbs.twimg.com/profile_images/953713101571960832/2svb3VEV_400x400.jpg"}
+      ]
+    },
+    {
+      "name": "CSS Podcast",
+      "class": "two",
+      "members": [
+        {"name": "", "image": "https://assets.libsyn.com/secure/item/25099461/?height=90&width=90"},
+        {"name": "Una", "image": "https://cdn.changelog.com/uploads/avatars/people/9N7e9/avatar_large.jpeg?v=63787616586"},
+        {"name": "Adam", "image": "https://cdn.changelog.com/uploads/avatars/people/L1wa/avatar_large.jpeg?v=63824792813"}
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "Which server-side JavaScript runtime do you expect to be using three years from now?",
+      "responses": [
+        {"rank": 1, "answer": "Node", "points": 43, "score": "43"},
+        {"rank": 2, "answer": "Deno", "points": 30, "score": "30"},
+        {"rank": 3, "answer": "None", "points": 8, "score": "8"},
+        {"rank": 4, "answer": "Bun", "points": 7, "score": "7"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "Every big tech company wants to hire you. Compensation is identical. Which do you choose?",
+      "responses": [
+        {"rank": 1, "answer": "Apple", "points": 21, "score": "21"},
+        {"rank": 2, "answer": "Microsoft", "points": 18, "score": "18"},
+        {"rank": 3, "answer": "Google", "points": 13, "score": "13"},
+        {"rank": 4, "answer": "None", "points": 12, "score": "12"},
+        {"rank": 5, "answer": "Netflix", "points": 9, "score": "9"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3 (Inverted)",
+      "question": "How many monitors do you use while coding?",
+      "responses": [
+        {"rank": 1, "answer": "Two monitors", "points": 5, "score": "50 (5 points)"},
+        {"rank": 2, "answer": "One monitor", "points": 10, "score": "35 (10 points)"},
+        {"rank": 3, "answer": "Three monitors", "points": 15, "score": "14 (15 points)"},
+        {"rank": 4, "answer": "Zero monitors", "points": 20, "score": "1 (20 points)"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4",
+      "question": "Finish this sentence: I couldn't code without...",
+      "responses": [
+        {"rank": 1, "answer": "Hardware (⌨️ / 💻 / 🔌)", "points": 23, "score": "23"},
+        {"rank": 2, "answer": "Editor (Vim / VS Code)", "points": 22, "score": "22"},
+        {"rank": 3, "answer": "Web (Google / SO / GH)", "points": 14, "score": "14"},
+        {"rank": 4, "answer": "Coffee / caffeine", "points": 11, "score": "11"},
+        {"rank": 5, "answer": "Body parts (🧠 / 🤲 / 👀)", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "Peace / quiet / muting things", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Inverted)",
+      "question": "My primary web browser is...",
+      "responses": [
+        {"rank": 1, "answer": "Chrome", "points": 5, "score": "33 (5 points)"},
+        {"rank": 2, "answer": "Firefox", "points": 10, "score": "29 (10 points)"},
+        {"rank": 3, "answer": "Brave", "points": 15, "score": "16 (15 points)"},
+        {"rank": 4, "answer": "Arc", "points": 20, "score": "9 (20 points)"},
+        {"rank": 5, "answer": "Safari", "points": 25, "score": "6 (25 points)"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "What one word sums up why you make software?",
+      "responses": [
+        {"rank": 1, "answer": "joy/fun/enjoyment", "points": 38, "score": "19 (38 points)"},
+        {"rank": 2, "answer": "money/payment/job", "points": 30, "score": "15 (30 points)"},
+        {"rank": 3, "answer": "puzzle/challenge", "points": 26, "score": "13 (26 points)"},
+        {"rank": 4, "answer": "creativity/craft/hobby", "points": 18, "score": "9 (18 points)"},
+        {"rank": 5, "answer": "curiosity/interest", "points": 16, "score": "8 (16 points)"},
+        {"rank": 6, "answer": "satisfaction/accomplishment", "points": 12, "score": "6 (12 points)"}
+      ]
+    }
+  ]
+}
