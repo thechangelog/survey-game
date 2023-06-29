@@ -1,0 +1,100 @@
+{
+  "title": "Gophers Say",
+  "teams": [
+    {
+      "name": "team[0]",
+      "class": "one",
+      "members": [
+        {"name": "Elena",  "image": "https://cdn.changelog.com/uploads/avatars/people/Vwp3/avatar_large.jpg?v=63855263053"},
+        {"name": "Björn", "image": "https://secure.gravatar.com/avatar/f402029f2428cd43ed65f1442fdc926f.jpg?s=600&d=mm"}
+
+      ]
+    },
+    {
+      "name": "team[1]",
+      "class": "two",
+      "members": [
+        {"name": "Alice",  "image": "https://cdn.changelog.com/uploads/avatars/people/e46qw/avatar_large.jpeg?v=63802490489"},
+        {"name": "Mohammed", "image": "https://secure.gravatar.com/avatar/fca96a6703326ce415cc7bfd2c68f543.jpg?s=600&d=mm"}
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "Which Go keyword do you use the most?",
+      "responses": [
+        {"rank": 1, "answer": "func", "points": 63, "score": "63"},
+        {"rank": 2, "answer": "if", "points": 29, "score": "29"},
+        {"rank": 3, "answer": "for", "points": 14, "score": "14"},
+        {"rank": 4, "answer": "return", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "var", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "Which Go keyword do you use the least?",
+      "responses": [
+        {"rank": 1, "answer": "goto", "points": 38, "score": "38"},
+        {"rank": 2, "answer": "fallthrough", "points": 21, "score": "21"},
+        {"rank": 3, "answer": "go", "points": 13, "score": "13"},
+        {"rank": 4, "answer": "else", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "defer", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "chan", "points": 6, "score": "6"},
+        {"rank": 7, "answer": "switch", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "Name one thing that most Go devs value highly",
+      "responses": [
+        {"rank": 1, "answer": "Simplicity", "points": 53, "score": "53"},
+        {"rank": 2, "answer": "Concurrency", "points": 10, "score": "10"},
+        {"rank": 3, "answer": "Performance / Speed", "points": 8, "score": "8"},
+        {"rank": 4, "answer": "Compatibility", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "Stability", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "Readability / Clarity", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4 (Inverted)",
+      "question": "UNPOPULAR: Which day of the week do you get the least coding done?",
+      "responses": [
+        {"rank": 1, "answer": "Friday", "points": 5, "score": "46 (5 points)"},
+        {"rank": 2, "answer": "Monday", "points": 10, "score": "29 (10 points)"},
+        {"rank": 3, "answer": "Sunday", "points": 15, "score": "24 (15 points)"},
+        {"rank": 4, "answer": "Saturday", "points": 20, "score": "12 (20 points)"},
+        {"rank": 5, "answer": "Tuesday", "points": 25, "score": "11 (25 points)"},
+        {"rank": 6, "answer": "Wednesday", "points": 30, "score": "10 (30 points)"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Double)",
+      "question": "DOUBLE: In a word, summarize your feelings about generative AI",
+      "responses": [
+        {"rank": 1, "answer": "awesome / cool", "points": 48, "score": "24 (48 points)"},
+        {"rank": 2, "answer": "interesting / curious", "points": 28, "score": "14 (28 points)"},
+        {"rank": 3, "answer": "meh / unimpressed", "points": 24, "score": "12 (24 points)"},
+        {"rank": 4, "answer": "useful / helpful", "points": 20, "score": "10 (20 points)"},
+        {"rank": 5, "answer": "scary / concerned", "points": 18, "score": "9 (18 points)"},
+        {"rank": 6, "answer": "overhyped", "points": 12, "score": "6 (12 points)"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "DOUBLE: What editor/IDE do you use when writing Go code?",
+      "responses": [
+        {"rank": 1, "answer": "GoLand", "points": 122, "score": "61 (122 points)"},
+        {"rank": 2, "answer": "VS Code", "points": 102, "score": "51 (102 points)"},
+        {"rank": 3, "answer": "Vim / Neovim", "points": 32, "score": "16 (32 points)"},
+        {"rank": 4, "answer": "Intellij IDEA", "points": 28, "score": "14 (28 points"}
+      ]
+    }
+  ]
+}
