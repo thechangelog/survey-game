@@ -5,7 +5,7 @@
       "name": "keyframers",
       "class": "one",
       "members": [
-        {"name": "", "image": "https://pbs.twimg.com/profile_images/1111299245548670976/Ewxov69n_400x400.png"},
+        {"name": "art", "image": "https://pbs.twimg.com/profile_images/1111299245548670976/Ewxov69n_400x400.png"},
         {"name": "David", "image": "https://pbs.twimg.com/profile_images/619677584805208064/RwwbnNpi_400x400.jpg"},
         {"name": "Shaw", "image": "https://pbs.twimg.com/profile_images/953713101571960832/2svb3VEV_400x400.jpg"}
       ]
@@ -14,7 +14,7 @@
       "name": "CSS Podcast",
       "class": "two",
       "members": [
-        {"name": "", "image": "https://assets.libsyn.com/secure/item/25099461/?height=90&width=90"},
+        {"name": "art", "image": "https://assets.libsyn.com/secure/item/25099461/?height=90&width=90"},
         {"name": "Una", "image": "https://cdn.changelog.com/uploads/avatars/people/9N7e9/avatar_large.jpeg?v=63787616586"},
         {"name": "Adam", "image": "https://cdn.changelog.com/uploads/avatars/people/L1wa/avatar_large.jpeg?v=63824792813"}
       ]

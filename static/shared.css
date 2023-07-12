@@ -67,7 +67,7 @@ button {
 
 .team {
   position: absolute;
-  width: 120px;
+  width: 150px;
   top: 12%;
 }
 .team.one {
@@ -78,7 +78,7 @@ button {
 }
 
 .member {
-  height:  120px;
+  height:  150px;
   margin-bottom: 25px;
   cursor: pointer;
 }
@@ -88,9 +88,16 @@ button {
 }
 
 .member img {
-  margin-left:  7px;
-  width:  100px;
-  height:  100px;
+  margin-left: 7px;
+  width:  130px;
+  height:  130px;
+}
+
+.member .art img {
+  border-radius: 5%;
+}
+
+.member .avatar img {
   border-radius: 50%;
 }
 

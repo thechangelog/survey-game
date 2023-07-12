@@ -13,8 +13,12 @@
     <div class="team {{.Class}}">
       {{range .Members}}
       <div class="member">
+      {{if eq .Name "art"}}
+        <div class="art"><img src="{{.Image}}"></div>
+      {{else}}
         <div class="avatar"><img src="{{.Image}}"></div>
-      <div class="name">{{.Name}}</div>
+        <div class="name">{{.Name}}</div>
+      {{end}}
       </div>
       {{end}}
     </div>
@@ -45,7 +49,7 @@
     <h3>Round {{.Round.Number}} Score: <span id="score">0</span></h3>
     <div class="helpful-buttons">
       <button id="points">Award Points</button>
-      {{if (ne .Next 0)}}
+      {{if ne .Next 0}}
       &nbsp|&nbsp;
       <a id="next" href="/{{.Next}}"><button>Next Round</button></a>
       {{end}}
