@@ -1,0 +1,100 @@
+{
+  "title": "Frontend Feud",
+  "teams": [
+    {
+      "name": "Whatnot",
+      "class": "one",
+      "members": [
+        {"name": "art", "image": "https://pbs.twimg.com/profile_images/1647606974551404547/dayFEtw4_400x400.jpg"},
+        {"name": "Chuck", "image": "https://pbs.twimg.com/profile_images/1635681754366513153/mecCzyVy_400x400.jpg"},
+        {"name": "Robbie", "image": "https://pbs.twimg.com/profile_images/1582409434428542976/R4yUCtUp_400x400.jpg"}
+      ]
+    },
+    {
+      "name": "CSS Pod",
+      "class": "two",
+      "members": [
+        {"name": "art", "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/38/ae/ee/38aeeec0-3fc0-d6e1-3f22-12083bd92d05/mza_11091380252473011901.png/460x460bb.jpg"},
+        {"name": "Una", "image": "https://pbs.twimg.com/profile_images/1587634978308997121/u7009cGe_400x400.jpg"},
+        {"name": "Adam", "image": "https://pbs.twimg.com/profile_images/1658247744056872961/kM5yS1uq_400x400.jpg"}
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "What is your most favorite programming language?",
+      "responses": [
+        {"rank": 1, "answer": "TypeScript", "points": 30, "score": "30"},
+        {"rank": 2, "answer": "JavaScript", "points": 24, "score": "24"},
+        {"rank": 3, "answer": "Ruby", "points": 8, "score": "8"},
+        {"rank": 4, "answer": "Rust", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "Python", "points": 6, "score": "6"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "What is your least favorite programming language?",
+      "responses": [
+        {"rank": 1, "answer": "Java", "points": 22, "score": "22"},
+        {"rank": 2, "answer": "PHP", "points": 18, "score": "18"},
+        {"rank": 3, "answer": "JavaScript", "points": 11, "score": "11"},
+        {"rank": 4, "answer": "C", "points": 8, "score": "8"},
+        {"rank": 5, "answer": "C++", "points": 7, "score": "7"},
+        {"rank": 6, "answer": "C#", "points": 6, "score": "6"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "How big is your primary computer monitor?",
+      "responses": [
+        {"rank": 1, "answer": "25-30 inches (18 x 27\")", "points": 26, "score": "26"},
+        {"rank": 2, "answer": "31-35 inches (13 x 34\")", "points": 23, "score": "23"},
+        {"rank": 3, "answer": "20-24 inches (15 x 24\")", "points": 20, "score": "20"},
+        {"rank": 4, "answer": "13-19 inches (5 x 15\")", "points": 18, "score": "18"},
+        {"rank": 5, "answer": "40+ inches (3 x 49\")", "points": 7, "score": "7"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4 (Inverted)",
+      "question": "What non-financial work benefit do you prize most?",
+      "responses": [
+        {"rank": 1, "answer": "WFH / Remote", "points": 5, "score": "20 (5 points)"},
+        {"rank": 2, "answer": "Freedom / Flexibility", "points": 10, "score": "18 (10 points)"},
+        {"rank": 3, "answer": "Unlimited / Generous PTO", "points": 15, "score": "17 (15 points)"},
+        {"rank": 4, "answer": "Learning / Education", "points": 20, "score": "8 (20 points)"},
+        {"rank": 5, "answer": "Friends / Team Events", "points": 25, "score": "7 (25 points)"},
+        {"rank": 6, "answer": "Challenge / Impact", "points": 30, "score": "5 (30 points)"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Double)",
+      "question": "Name a SaaS you can't imagine living without",
+      "responses": [
+        {"rank": 1, "answer": "GitHub", "points": 24, "score": "12 (24 points)"},
+        {"rank": 2, "answer": "None", "points": 20, "score": "10 (20 points)"},
+        {"rank": 3, "answer": "Gmail / Email", "points": 18, "score": "9 (18 points)"},
+        {"rank": 4, "answer": "Google Drive / Pay / Maps", "points": 14, "score": "7 (14 points)"},
+        {"rank": 5, "answer": "Stripe", "points": 10, "score": "5 (10 points)"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "In a word, how does GH Copilot make you feel?",
+      "responses": [
+        {"rank": 1, "answer": "Empowered / Productive", "points": 44, "score": "22 (44 points)"},
+        {"rank": 2, "answer": "Unimpressed / Meh", "points": 26, "score": "13 (26 points)"},
+        {"rank": 3, "answer": "Anxious / Poor", "points": 24, "score": "12 (24 points)"},
+        {"rank": 4, "answer": "Exploited / Robbed / Icky", "points": 22, "score": "11 (22 points)"},
+        {"rank": 5, "answer": "Curious / Interested", "points": 20, "score": "10 (20 points)"},
+        {"rank": 6, "answer": "Tired / Annoyed", "points": 12, "score": "6 (12 points)"}
+      ]
+    }
+  ]
+}
