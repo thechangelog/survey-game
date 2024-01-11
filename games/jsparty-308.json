@@ -1,0 +1,99 @@
+{
+  "title": "Frontend Feud",
+  "teams": [
+    {
+      "name": "Compressed",
+      "class": "one",
+      "members": [
+        {"name": "art", "image": "https://image.simplecastcdn.com/images/6da0eb34-b1fa-4059-bc17-c3069ec770cb/887a7d9c-5eac-49df-a771-c0e3cadfe81c/3000x3000/podast-cover.jpg"},
+        {"name": "Amy", "image": "https://pbs.twimg.com/profile_images/1300965359743369217/8QI8KoF1_400x400.jpg"},
+        {"name": "James", "image": "https://pbs.twimg.com/profile_images/1596308940794609664/ETIx-wHp_400x400.jpg"},
+        {"name": "Brad", "image": "https://pbs.twimg.com/profile_images/1057467366299230209/FN-lHU5D_400x400.jpg"}
+      ]
+    },
+    {
+      "name": "CSS Pod",
+      "class": "two",
+      "members": [
+        {"name": "art", "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/38/ae/ee/38aeeec0-3fc0-d6e1-3f22-12083bd92d05/mza_11091380252473011901.png/460x460bb.jpg"},
+        {"name": "Una", "image": "https://pbs.twimg.com/profile_images/1587634978308997121/u7009cGe_400x400.jpg"},
+        {"name": "Adam", "image": "https://pbs.twimg.com/profile_images/1720589781476982784/P9Ld4vC5_400x400.jpg"}
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "Name the person who created your favorite software library or framework",
+      "responses": [
+        {"rank": 1, "answer": "Evan You", "points": 21, "score": "21"},
+        {"rank": 2, "answer": "Rich Harris", "points": 17, "score": "17"},
+        {"rank": 3, "answer": "John Resig", "points": 14, "score": "14"},
+        {"rank": 4, "answer": "Zach Leatherman", "points": 12, "score": "12"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "The first CSS property that comes to your mind",
+      "responses": [
+        {"rank": 1, "answer": "display", "points": 41, "score": "41"},
+        {"rank": 2, "answer": "color", "points": 37, "score": "37"},
+        {"rank": 3, "answer": "background-*", "points": 29, "score": "29"},
+        {"rank": 4, "answer": "font-*", "points": 11, "score": "11"},
+        {"rank": 5, "answer": "margin", "points": 7, "score": "7"},
+        {"rank": 6, "answer": "padding", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "Name your favorite coding website",
+      "responses": [
+        {"rank": 1, "answer": "developer.mozilla.org", "points": 30, "score": "30"},
+        {"rank": 2, "answer": "codepen.io", "points": 23, "score": "23"},
+        {"rank": 3, "answer": "github.com", "points": 20, "score": "20"},
+        {"rank": 4, "answer": "stackoverflow.com", "points": 12, "score": "12"},
+        {"rank": 5, "answer": "freecodecamp.org", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4 (Inverted)",
+      "question": "The first HTML element that comes to your mind",
+      "responses": [
+        {"rank": 1, "answer": "<div>", "points": 5, "score": "57 (5 points)"},
+        {"rank": 2, "answer": "<a>", "points": 10, "score": "13 (10 points)"},
+        {"rank": 3, "answer": "<h1>", "points": 15, "score": "10 (15 points)"},
+        {"rank": 4, "answer": "<p>", "points": 20, "score": "9 (20 points)"},
+        {"rank": 5, "answer": "<head>", "points": 25, "score": "6 (25 points)"},
+        {"rank": 6, "answer": "<body>", "points": 30, "score": "5 (30 points)"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Double)",
+      "question": "In a word, software development makes me _____",
+      "responses": [
+        {"rank": 1, "answer": "happy / fulfilled", "points": 86, "score": "43 (86 points)"},
+        {"rank": 2, "answer": "money / rich", "points": 60, "score": "30 (60 points)"},
+        {"rank": 3, "answer": "excited / stimulated", "points": 25, "score": "13 (25 points)"},
+        {"rank": 4, "answer": "tired / stressed", "points": 24, "score": "12 (24 points)"},
+        {"rank": 5, "answer": "angry / grumpy", "points": 12, "score": "6 (12 points)"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Inverted Double)",
+      "question": "Name the first protocol that comes to your mind",
+      "responses": [
+        {"rank": 1, "answer": "HTTP", "points": 10, "score": "92 (10 points)"},
+        {"rank": 2, "answer": "HTTPS", "points": 20, "score": "27 (20 points)"},
+        {"rank": 3, "answer": "TCP", "points": 30, "score": "13 (30 points)"},
+        {"rank": 4, "answer": "FTP", "points": 40, "score": "8 (40 points)"},
+        {"rank": 5, "answer": "IP", "points": 50, "score": "5 (50 points)"}
+      ]
+    }
+  ]
+}
