@@ -1,31 +1,31 @@
 package main
 
 import (
-	"os"
-	"fmt"
-	"strconv"
-	"strings"
 	"encoding/json"
+	"fmt"
 	"html/template"
 	"io/ioutil"
 	"net/http"
+	"os"
+	"strconv"
+	"strings"
 )
 
 type Game struct {
 	Title  string
-	Theme string
-	Teams []Team
+	Theme  string
+	Teams  []Team
 	Rounds []Round
 }
 
 type Team struct {
-	Name string
-	Class string
+	Name    string
+	Class   string
 	Members []Member
 }
 
 type Member struct {
-	Name string
+	Name  string
 	Image string
 }
 
