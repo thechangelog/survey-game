@@ -81,8 +81,8 @@ func index(w http.ResponseWriter, r *http.Request, game Game) {
 	tmpl.Execute(w, page)
 }
 
-func loadGame(name string) Game {
-	dataPath := fmt.Sprintf("./games/%s.json", name)
+func loadGame(podcast string, episode string) Game {
+	dataPath := fmt.Sprintf("./games/%s-%s.json", podcast, episode)
 	data, err := ioutil.ReadFile(dataPath)
 
 	if err != nil {
@@ -97,6 +97,8 @@ func loadGame(name string) Game {
 		fmt.Println("error:", err)
 	}
 
+	game.Theme = podcast
+
 	return game
 }
 
@@ -104,12 +106,10 @@ func main() {
 	podcast := os.Args[1]
 	episode := os.Args[2]
 
-	game := loadGame(fmt.Sprintf("%s-%s", podcast, episode))
-	game.Theme = podcast
-
 	fs := http.FileServer(http.Dir("./static"))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		game := loadGame(podcast, episode)
 		index(w, r, game)
 	})
 
