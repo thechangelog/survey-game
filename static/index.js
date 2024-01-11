@@ -9,8 +9,7 @@ $(".card").flip({
   axis: "x",
   speed: 300,
   trigger: "manual"
-});
-
+})
 
 $(".card").click(function() {
   let $card = $(this);
@@ -65,18 +64,28 @@ $(".member").click(function() {
   let $member = $(this);
 
   if ($member.hasClass("active")) {
-    $member.removeClass("active").addClass("missed");
+    $member
+      .removeClass("active")
+      .closest(".team")
+      .find(".misses .x:not(.active)")
+      .first()
+      .addClass("active")
   } else {
-    $member.removeClass("missed").addClass("active");
+    $member.addClass("active");
     $(".member").not($member).removeClass("active");
   }
-});
+})
+
+$(".x").click(function() {
+  $(this).removeClass("active")
+})
 
 function reset() {
   localStorage.setItem(teamOne, 0);
   localStorage.setItem(teamTwo, 0);
   $("#one").find(".count").text(0);
   $("#two").find(".count").text(0);
+  $(".x").removeClass("active");
 }
 
 function setTeamOne(score) {

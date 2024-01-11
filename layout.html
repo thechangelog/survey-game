@@ -11,6 +11,11 @@
   <div class="container">
     {{range .Game.Teams}}
     <div class="team {{.Class}}">
+      <div class="misses">
+        <img src="/static/images/x.png" class="x">
+        <img src="/static/images/x.png" class="x">
+        <img src="/static/images/x.png" class="x">
+      </div>
       {{range .Members}}
       <div class="member">
       {{if eq .Name "art"}}

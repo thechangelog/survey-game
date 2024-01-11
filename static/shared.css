@@ -77,6 +77,30 @@ button {
   right: -50px;
 }
 
+.misses {
+  position: absolute;
+  width: 75px;
+  top: 75px;
+}
+
+.team.one .misses {
+  right: -110px;
+}
+
+.team.two .misses {
+  left: -110px;
+}
+
+.x {
+  width: 75px;
+  padding: 8px 0;
+  display: none;
+}
+
+.x.active {
+  display: block;
+}
+
 .member {
   height:  150px;
   margin-bottom: 25px;
@@ -131,6 +155,7 @@ button {
 }
 
 .board {
+  position: relative;
   background-color: #101820;
   width: 720px;
   border: 5px solid #222;
