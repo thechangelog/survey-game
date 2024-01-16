@@ -6,7 +6,6 @@
       "class": "one",
       "members": [
         {"name": "art", "image": "https://image.simplecastcdn.com/images/6da0eb34-b1fa-4059-bc17-c3069ec770cb/887a7d9c-5eac-49df-a771-c0e3cadfe81c/3000x3000/podast-cover.jpg"},
-        {"name": "Amy", "image": "https://pbs.twimg.com/profile_images/1300965359743369217/8QI8KoF1_400x400.jpg"},
         {"name": "James", "image": "https://pbs.twimg.com/profile_images/1596308940794609664/ETIx-wHp_400x400.jpg"},
         {"name": "Brad", "image": "https://pbs.twimg.com/profile_images/1057467366299230209/FN-lHU5D_400x400.jpg"}
       ]
