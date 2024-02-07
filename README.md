@@ -19,6 +19,21 @@ go run main.go gotime 200
 
 Then visit `http://localhost:8000` in a Chromium-based browser (other rendering engines will likely work, but are untested) and _go_ from there.
 
+### Keyboard shortcuts
+
+The entire game board can be controlled via the keyboard with the following keys:
+
+- 1-9: Toggle reveal of answer 1-9
+- ←: Make team one active
+- →: Make team two active
+- a: (a)ward points to active team
+- y: right answer sound (yes)
+- n: wrong answer sound (no)
+- p: activate next (p)layer on active team
+- r: go to the next (r)ound
+- e: go back to previous round
+- x: Adds a miss to active team
+
 ## Legal
 
 Code is released under the [MIT license](/LICENSE).

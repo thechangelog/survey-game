@@ -1,49 +1,99 @@
-let teamOne = "teamOne";
-let teamTwo = "teamTwo";
+let teamOne = "team-one";
+let teamTwo = "team-two";
 let teamOneScore = parseInt(localStorage.getItem(teamOne), 10) || 0;
 let teamTwoScore = parseInt(localStorage.getItem(teamTwo), 10) || 0;
 let roundScore = 0;
 let activeTeam;
 
+$(document).on("keydown", function (e) {
+  console.log(e.key);
+  switch (e.key) {
+    case "ArrowLeft":
+      $("#one").trigger("click");
+      break;
+    case "ArrowRight":
+      $("#two").trigger("click");
+      break;
+    case "a":
+      $("#points").trigger("click");
+      break;
+    case "p": // p goes to the next player on the active team
+      let members = $(`#${activeTeam}`).children(".member");
+      let active = members.filter(".active");
+      let next = active.next(".member");
+
+      if (active.length && next.length) next.trigger("click");
+      else members.first().trigger("click");
+      break;
+    case "n":
+      $("#wrong")[0].play();
+      break;
+    case "y":
+      $("#right")[0].play();
+      break;
+    case "r":
+      $("#next")[0].click();
+      break;
+    case "e":
+      window.history.back();
+    case "x":
+      let misses = $(`#${activeTeam}`).find(".misses");
+      let activeX = misses.find(".x.active");
+      let nextX = activeX.next(".x");
+
+      if (activeX.length && nextX.length) nextX.addClass("active");
+      else misses.find(".x").first().addClass("active");
+      break;
+    default:
+      // 1-9: flip appropriate card
+      if (e.which >= 49 && e.which <= 57) {
+        let number = e.which - 48;
+        $(".card")
+          .eq(number - 1)
+          .trigger("click");
+      }
+  }
+});
+
 $(".card").flip({
   axis: "x",
   speed: 300,
-  trigger: "manual"
-})
+  trigger: "manual",
+});
 
-$(".card").click(function() {
+$(".card").click(function () {
   let $card = $(this);
   let flip = $card.data("flip-model");
   let points = parseInt($card.data("points"), 10);
 
   if (flip.isFlipped) {
-    $card.flip(false)
+    $card.flip(false);
     roundScore -= points;
   } else {
-    $card.flip(true)
+    $card.flip(true);
     roundScore += points;
   }
 
   $("#score").text(roundScore);
-})
+});
 
-$("#one").click(function() {
+$("#one").click(function () {
   activeTeam = teamOne;
   $(this).addClass("active");
   $("#two").removeClass("active");
-})
+});
 
-$("#two").click(function() {
+$("#two").click(function () {
   activeTeam = teamTwo;
   $(this).addClass("active");
   $("#one").removeClass("active");
-})
+});
 
-$("#points").click(function() {
+$("#points").click(function () {
   if (activeTeam === undefined) {
     alert("No team selected!");
     return 0;
-  } else if (activeTeam === "teamOne") {
+  } else if (activeTeam === "team-one") {
     teamOneScore += roundScore;
     localStorage.setItem(teamOne, teamOneScore);
     $("#one").find(".count").text(teamOneScore);
@@ -60,7 +110,7 @@ $("#points").click(function() {
 $("#one").find(".count").text(teamOneScore);
 $("#two").find(".count").text(teamTwoScore);
 
-$(".member").click(function() {
+$(".member").click(function () {
   let $member = $(this);
 
   if ($member.hasClass("active")) {
@@ -69,16 +119,16 @@ $(".member").click(function() {
       .closest(".team")
       .find(".misses .x:not(.active)")
       .first()
-      .addClass("active")
+      .addClass("active");
   } else {
     $member.addClass("active");
-    $(".member").not($member).removeClass("active");
+    $member.siblings().removeClass("active");
   }
-})
+});
 
-$(".x").click(function() {
-  $(this).removeClass("active")
-})
+$(".x").click(function () {
+  $(this).removeClass("active");
+});
 
 function reset() {
   localStorage.setItem(teamOne, 0);

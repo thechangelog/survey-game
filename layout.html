@@ -1,67 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>{{.Game.Title}}</title>
-  <link rel="stylesheet" type="text/css" href="/static/shared.css">
-  <link rel="stylesheet" type="text/css" href="/static/{{.Game.Theme}}.css">
-  <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
-</head>
-<body>
-  <div class="container">
-    {{range .Game.Teams}}
-    <div class="team {{.Class}}">
-      <div class="misses">
-        <img src="/static/images/x.png" class="x">
-        <img src="/static/images/x.png" class="x">
-        <img src="/static/images/x.png" class="x">
-      </div>
-      {{range .Members}}
-      <div class="member">
-      {{if eq .Name "art"}}
-        <div class="art"><img src="{{.Image}}"></div>
-      {{else}}
-        <div class="avatar"><img src="{{.Image}}"></div>
-        <div class="name">{{.Name}}</div>
-      {{end}}
-      </div>
-      {{end}}
-    </div>
-    {{end}}
+    <head>
+        <meta charset="utf-8" />
+        <title>{{.Game.Title}}</title>
+        <link rel="stylesheet" type="text/css" href="/static/shared.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="/static/{{.Game.Theme}}.css"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="/static/favicon.ico"
+        />
+    </head>
+    <body>
+        <div class="container">
+            {{range .Game.Teams}}
+            <div id="team-{{.Class}}" class="team {{.Class}}">
+                <div class="misses">
+                    <img src="/static/images/x.png" class="x" />
+                    <img src="/static/images/x.png" class="x" />
+                    <img src="/static/images/x.png" class="x" />
+                </div>
+                {{range .Members}}
+                <div class="member">
+                    {{if eq .Name "art"}}
+                    <div class="art"><img src="{{.Image}}" /></div>
+                    {{else}}
+                    <div class="avatar"><img src="{{.Image}}" /></div>
+                    <div class="name">{{.Name}}</div>
+                    {{end}}
+                </div>
+                {{end}}
+            </div>
+            {{end}}
 
-    <h1>
-      {{range .Game.Teams}}
-        <span class="team-score {{.Class}}" id="{{.Class}}"><span class="name">{{.Name}}</span><br/><span class="count">0</span></span>&nbsp;
-      {{end}}
-    </h1>
+            <h1>
+                {{range .Game.Teams}}
+                <span class="team-score {{.Class}}" id="{{.Class}}"
+                    ><span class="name">{{.Name}}</span><br /><span
+                        class="count"
+                        >0</span
+                    ></span
+                >&nbsp; {{end}}
+            </h1>
 
+            <h3 class="question">{{.Round.Question}}</h3>
+            <div class="board">
+                {{range .Round.Responses}}
+                <div class="card" data-points="{{.Points}}">
+                    <div class="front">
+                        <span class="rank">{{.Rank}}</span>
+                    </div>
+                    <div class="back">
+                        <div class="answer">{{.Answer}}</div>
+                        <div class="score">{{.Score}}</div>
+                    </div>
+                </div>
+                {{end}}
+            </div>
 
-    <h3 class="question">{{.Round.Question}}</h3>
-    <div class="board">
-      {{range .Round.Responses}}
-      <div class="card" data-points="{{.Points}}">
-        <div class="front">
-          <span class="rank">{{.Rank}}</span>
+            <h3>Round {{.Round.Number}} Score: <span id="score">0</span></h3>
+            <div class="helpful-buttons">
+                <button id="points">Award Points</button>
+                {{if ne .Next 0}} &nbsp|&nbsp;
+                <a id="next" href="/{{.Next}}"><button>Next Round</button></a>
+                {{end}}
+            </div>
         </div>
-        <div class="back">
-          <div class="answer">{{.Answer}}</div>
-          <div class="score">{{.Score}}</div>
-        </div>
-      </div>
-      {{end}}
-    </div>
-
-    <h3>Round {{.Round.Number}} Score: <span id="score">0</span></h3>
-    <div class="helpful-buttons">
-      <button id="points">Award Points</button>
-      {{if ne .Next 0}}
-      &nbsp|&nbsp;
-      <a id="next" href="/{{.Next}}"><button>Next Round</button></a>
-      {{end}}
-    </div>
-  </div>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.rawgit.com/nnattawat/flip/v1.1.1/dist/jquery.flip.min.js"></script>
-  <script type="text/javascript" src="/static/index.js"></script>
-</body>
+        <audio id="right" src="/static/sounds/right.wav"></audio>
+        <audio id="wrong" src="/static/sounds/wrong.wav"></audio>
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://cdn.rawgit.com/nnattawat/flip/v1.1.1/dist/jquery.flip.min.js"
+        ></script>
+        <script type="text/javascript" src="/static/index.js"></script>
+    </body>
 </html>
