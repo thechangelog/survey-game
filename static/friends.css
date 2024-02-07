@@ -1,0 +1,39 @@
+body::before {
+  background-image: url("/static/images/podcast-abstract-art.svg");
+}
+
+.team-score {
+  border: 3px solid #59B287;
+}
+
+.team-score.active {
+  background-color: #59B287;
+}
+
+.team-score .name {
+  border-bottom: 1px solid #59B287;
+}
+
+.team-score.active .name {
+  border-bottom: 1px solid #101820;
+}
+
+.member img {
+  border:  3px solid #59B287;
+}
+
+.member.active img {
+  filter: drop-shadow(0 0 30px #59B287);
+}
+
+.board {
+  border: 5px solid #59B287;
+}
+
+.front {
+  background-color: #878b8f;
+}
+
+.back {
+  background-color: #59B287;
+}
