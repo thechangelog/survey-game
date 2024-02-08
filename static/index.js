@@ -25,13 +25,16 @@ $(document).on("keydown", function (e) {
       if (active.length && next.length) next.trigger("click");
       else members.first().trigger("click");
       break;
+    case "i":
+      $("#intro")[0].play();
+      break;
     case "n":
       $("#wrong")[0].play();
       break;
     case "y":
       $("#right")[0].play();
       break;
-    case "r":
+    case "z":
       $("#next")[0].click();
       break;
     case "e":
