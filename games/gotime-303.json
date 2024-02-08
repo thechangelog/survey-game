@@ -1,0 +1,182 @@
+{
+  "title": "Gophers Say",
+  "teams": [
+    {
+      "name": "team[0]",
+      "class": "one",
+      "members": [
+        {
+          "name": "Wiktor",
+          "image": "/static/images/gotime-303/Wiktor.jpg"
+        },
+        {
+          "name": "Diana",
+          "image": "/static/images/gotime-303/Diana.jpg"
+        },
+        {
+          "name": "Greg",
+          "image": "/static/images/gotime-303/Greg.jpg"
+        }
+      ]
+    },
+    {
+      "name": "team[1]",
+      "class": "two",
+      "members": [
+        {
+          "name": "Val",
+          "image": "/static/images/gotime-303/Val.jpg"
+        },
+        {
+          "name": "Andrii",
+          "image": "/static/images/gotime-303/Andrii.jpg"
+        },
+        {
+          "name": "Llwellyn",
+          "image": "/static/images/gotime-303/Llwellyn.jpg"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "What's your favorite non-Go programming language?",
+      "responses": [
+        { "rank": 1, "answer": "Python", "points": 22, "score": "22" },
+        { "rank": 2, "answer": "Java", "points": 12, "score": "12" },
+        { "rank": 3, "answer": "JS / TS", "points": 8, "score": "8" },
+        { "rank": 4, "answer": "Rust", "points": 5, "score": "5" }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "What's the first Go func that comes to your mind?",
+      "responses": [
+        { "rank": 1, "answer": "main", "points": 25, "score": "25" },
+        { "rank": 2, "answer": "fmt.Println", "points": 12, "score": "12" },
+        { "rank": 3, "answer": "panic", "points": 11, "score": "11" },
+        { "rank": 4, "answer": "make", "points": 8, "score": "8" },
+        { "rank": 5, "answer": "fmt.Printf", "points": 5, "score": "5" }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "Name one feature you would remove from Go",
+      "responses": [
+        { "rank": 1, "answer": "Nothing", "points": 17, "score": "17" },
+        { "rank": 2, "answer": "Generics", "points": 12, "score": "12" },
+        {
+          "rank": 3,
+          "answer": "Errors",
+          "points": 10,
+          "score": "10"
+        },
+        { "rank": 4, "answer": "Named returns", "points": 7, "score": "7" },
+        { "rank": 5, "answer": "Cgo", "points": 5, "score": "5" }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4 (Inverted)",
+      "question": "UNPOPULAR: What's your least favorite programming language?",
+      "responses": [
+        {
+          "rank": 1,
+          "answer": "JavaScript",
+          "points": 5,
+          "score": "24 (5 points)"
+        },
+        {
+          "rank": 2,
+          "answer": "Java",
+          "points": 10,
+          "score": "17 (10 points)"
+        },
+        {
+          "rank": 3,
+          "answer": "PHP",
+          "points": 15,
+          "score": "11 (15 points)"
+        },
+        {
+          "rank": 4,
+          "answer": "Python",
+          "points": 20,
+          "score": "6 (20 points)"
+        },
+        {
+          "rank": 5,
+          "answer": "C++",
+          "points": 25,
+          "score": "5 (25 points)"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Double)",
+      "question": "DOUBLE: If you weren't in tech, what job would you have?",
+      "responses": [
+        {
+          "rank": 1,
+          "answer": "Teacher / Coach",
+          "points": 14,
+          "score": "7 (14 points)"
+        },
+        {
+          "rank": 2,
+          "answer": "Scientist",
+          "points": 12,
+          "score": "6 (12 points)"
+        },
+        {
+          "rank": 3,
+          "answer": "Carpenter",
+          "points": 10,
+          "score": "5 (10 points)"
+        },
+        {
+          "rank": 4,
+          "answer": "No idea",
+          "points": 10,
+          "score": "5 (10 points)"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "DOUBLE: What is your favorite dev tool?",
+      "responses": [
+        {
+          "rank": 1,
+          "answer": "GoLand",
+          "points": 34,
+          "score": "17 (34 points)"
+        },
+        {
+          "rank": 2,
+          "answer": "VS Code",
+          "points": 24,
+          "score": "12 (24 points)"
+        },
+        {
+          "rank": 3,
+          "answer": "Vim / Neovim",
+          "points": 14,
+          "score": "7 (14 points)"
+        },
+        {
+          "rank": 4,
+          "answer": "Terminal",
+          "points": 10,
+          "score": "5 (10 points)"
+        }
+      ]
+    }
+  ]
+}
