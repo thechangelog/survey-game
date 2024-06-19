@@ -53,9 +53,9 @@ func index(w http.ResponseWriter, r *http.Request, game Game) {
 	// extract the round number from the path
 	pString := strings.Split(r.URL.Path, "/")[1]
 
-	// default to the 1st round if there isn't one specified
+	// default to the 0th round if there isn't one specified
 	if pString == "" {
-		pString = "1"
+		pString = "0"
 	}
 
 	pInt, err := strconv.Atoi(pString)
@@ -71,11 +71,19 @@ func index(w http.ResponseWriter, r *http.Request, game Game) {
 		next = 0
 	}
 
+	var round Round
+
+	if pInt == 0 {
+		round = Round{Number: 0, Title: "Splash Page"}
+	} else {
+		round = game.Rounds[pInt-1]
+	}
+
 	tmpl := template.Must(template.ParseFiles("layout.html"))
 
 	page := Page{
 		Game:  game,
-		Round: game.Rounds[pInt-1],
+		Round: round,
 		Next:  next}
 
 	tmpl.Execute(w, page)

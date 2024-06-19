@@ -37,6 +37,9 @@
             </div>
             {{end}}
 
+            {{if eq .Round.Number 0}}
+            <img src="/static/images/{{.Game.Theme}}-cover.jpg" class="cover" />
+            {{else}}
             <h1>
                 {{range .Game.Teams}}
                 <span class="team-score {{.Class}}" id="{{.Class}}"
@@ -61,14 +64,21 @@
                 </div>
                 {{end}}
             </div>
+            {{end}}
 
-            <h3>Round {{.Round.Number}} Score: <span id="score">0</span></h3>
+            {{if eq .Round.Number 0}}
+            <div class="helpful-buttons">
+                <a id="next" href="/{{.Next}}"><button>Let's Play!</button></a>
+            </div>
+            {{else}}
+            <h3>Round: {{.Round.Number}} Score: <span id="score">0</span></h3>
             <div class="helpful-buttons">
                 <button id="points">Award Points</button>
                 {{if ne .Next 0}} &nbsp|&nbsp;
                 <a id="next" href="/{{.Next}}"><button>Next Round</button></a>
                 {{end}}
             </div>
+            {{end}}
         </div>
         <audio id="right" src="/static/sounds/right.wav"></audio>
         <audio id="wrong" src="/static/sounds/wrong.wav"></audio>
