@@ -1,0 +1,112 @@
+{
+  "title": "Gophers Say",
+  "teams": [
+    {
+      "name": "team[0]",
+      "class": "one",
+      "members": [
+        {
+          "name": "Cameron",
+          "image": "/static/images/gotime-320/cameron.jpg"
+        },
+        {
+          "name": "Chioma",
+          "image": "https://pbs.twimg.com/profile_images/1519711302582689795/AnIEjeT7_400x400.jpg"
+        },
+        {
+          "name": "Ron",
+          "image": "/static/images/gotime-320/ron.jpg"
+        }
+      ]
+    },
+    {
+      "name": "team[1]",
+      "class": "two",
+      "members": [
+        {
+          "name": "Johnny",
+          "image": "/static/images/gotime-320/johnny.jpg"
+        },
+        {
+          "name": "Travis",
+          "image": "https://pbs.twimg.com/profile_images/1755128856250585088/M91s-P0j_400x400.jpg"
+        },
+        {
+          "name": "Paula",
+          "image": "https://pbs.twimg.com/profile_images/1674186513867845632/LgL6m1te_400x400.jpg"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "The first Go function that comes to your mind",
+      "responses": [
+        { "rank": 1, "answer": "main", "points": 25, "score": "24" },
+        { "rank": 2, "answer": "fmt.Println", "points": 13, "score": "13" },
+        { "rank": 3, "answer": "fmt.Printf", "points": 8, "score": "8" },
+        { "rank": 4, "answer": "make", "points": 6, "score": "6" },
+        { "rank": 5, "answer": "panic", "points": 5, "score": "5" }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "Name your favorite coding website",
+      "responses": [
+        { "rank": 1, "answer": "go.dev", "points": 19, "score": "19" },
+        { "rank": 2, "answer": "stackoverflow.com", "points": 13, "score": "13" },
+        { "rank": 3, "answer": "github.com", "points": 12, "score": "12" },
+        { "rank": 4, "answer": "youtube.com", "points": 6, "score": "6" },
+        { "rank": 5, "answer": "chatgpt.com", "points": 5, "score": "5" }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "What is your beverage of choice while coding?",
+      "responses": [
+        { "rank": 1, "answer": "Coffee", "points": 35, "score": "35" },
+        { "rank": 2, "answer": "Plain Water", "points": 28, "score": "28" },
+        { "rank": 3, "answer": "Soda / Pop", "points": 7, "score": "7" },
+        { "rank": 4, "answer": "Sparkling Water", "points": 5, "score": "5" }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4 (Inverted)",
+      "question": "UNPOPULAR: What is the first Go keyword that comes to your mind?",
+      "responses": [
+        {"rank": 1, "answer": "Go", "points": 5, "score": "28 (5 points)"},
+        {"rank": 2, "answer": "func", "points": 10, "score": "16 (10 points)"},
+        {"rank": 3, "answer": "defer", "points": 15, "score": "8 (15 points)"},
+        {"rank": 4, "answer": "type", "points": 20, "score": "7 (20 points)"},
+        {"rank": 5, "answer": "struct", "points": 25, "score": "6 (25 points)"},
+        {"rank": 6, "answer": "if", "points": 30, "score": "5 (30 points)"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Double)",
+      "question": "DOUBLE: Software development makes me ____.",
+      "responses": [
+        {"rank": 1, "answer": "Happy / Fulfilled", "points": 42, "score": "21 (42 points)"},
+        {"rank": 2, "answer": "Sad / Annoyed", "points": 28, "score": "14 (28 points)"},
+        {"rank": 3, "answer": "Money / Rich", "points": 12, "score": "6 (12 points)"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Double)",
+      "question": "DOUBLE: I couldn't code without...",
+      "responses": [
+        {"rank": 1, "answer": "A computer", "points": 24, "score": "12 (24 points)"},
+        {"rank": 2, "answer": "Vim / Emacs / Etc", "points": 20, "score": "10 (20 points)"},
+        {"rank": 3, "answer": "Body parts", "points": 12, "score": "6 (12 points)"},
+        {"rank": 4, "answer": "Silence / Music / Focus", "points": 10, "score": "5 (10 points)"}
+      ]
+    }
+  ]
+}
