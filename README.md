@@ -28,6 +28,7 @@ The entire game board can be controlled via the keyboard.
 - 1-9: Toggle reveal of answer 1-9
 - ←: Make team one active
 - →: Make team two active
+- ↑: Make both teams inactive
 - a: (a)ward points to active team
 - p: activate next (p)layer
 - z: go to the next (r)ound

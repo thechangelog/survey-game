@@ -14,6 +14,11 @@ $(document).on("keydown", function (e) {
     case "ArrowRight":
       $("#two").trigger("click");
       break;
+    case "ArrowUp":
+      activeTeam = undefined;
+      $("#one").removeClass("active");
+      $("#two").removeClass("active");
+      break;
     case "a":
       $("#points").trigger("click");
       break;
