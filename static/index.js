@@ -6,7 +6,7 @@ let roundScore = 0;
 let activeTeam;
 
 $(document).on("keydown", function (e) {
-  console.log(e.key);
+  // console.log(e.key);
   switch (e.key) {
     case "ArrowLeft":
       $("#one").trigger("click");

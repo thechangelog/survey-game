@@ -1,0 +1,161 @@
+{
+  "title": "Friendly Feud",
+  "teams": [
+    {
+      "name": "team[0]",
+      "class": "one",
+      "members": [
+        {
+          "name": "Adam",
+          "image": "https://pbs.twimg.com/profile_images/1608315026946854915/Lw2zQWOZ_400x400.jpg"
+        },
+        {
+          "name": "Amy",
+          "image": "https://pbs.twimg.com/profile_images/1300965359743369217/8QI8KoF1_400x400.jpg"
+        },
+        {
+          "name": "Chris",
+          "image": "/static/images/friends-83/chris.png"
+        }
+      ]
+    },
+    {
+      "name": "team[1]",
+      "class": "two",
+      "members": [
+        {
+          "name": "Nick",
+          "image": "/static/images/friends-83/nick.jpg"
+        },
+        {
+          "name": "Amal",
+          "image": "https://cdn.bsky.app/img/avatar/plain/did:plc:adxl4lwgsbqgmhpij62bwqau/bafkreidh3uywdzpqmwcrqggav2ru77rvl74ulxdeivzjihutjkwvqf6fdm@jpeg"
+        },
+        {
+          "name": "KBall",
+          "image": "https://cdn.bsky.app/img/avatar/plain/did:plc:5ybdnqawgb43z3h2vs2kd6oo/bafkreiaaribau7pb44yjmnxbzpsk3urobw7hjyqscs53dfa74lcnkts2he@jpeg"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "What's the first robot that comes to your mind?",
+      "responses": [
+        { "rank": 1, "answer": "R2-D2", "points": 22, "score": "22" },
+        { "rank": 2, "answer": "Wall-E", "points": 20, "score": "20" },
+        { "rank": 3, "answer": "Marvin", "points": 12, "score": "12" },
+        { "rank": 3, "answer": "Roomba", "points": 10, "score": "10" },
+        { "rank": 5, "answer": "Rosey", "points": 8, "score": "8" },
+        { "rank": 6, "answer": "Bender", "points": 7, "score": "7" }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "What is your favorite file format?",
+      "responses": [
+        { "rank": 1, "answer": "Markdown", "points": 35, "score": "35" },
+        { "rank": 2, "answer": "JSON", "points": 27, "score": "27" },
+        { "rank": 3, "answer": "Plaintext", "points": 24, "score": "24" },
+        { "rank": 4, "answer": "CSV", "points": 8, "score": "8" },
+        { "rank": 5, "answer": "SQLite", "points": 6, "score": "6" }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "What is your least favorite file format?",
+      "responses": [
+        { "rank": 1, "answer": "XML", "points": 28, "score": "28" },
+        { "rank": 2, "answer": "YAML", "points": 25, "score": "25" },
+        { "rank": 3, "answer": "PDF", "points": 20, "score": "20" },
+        { "rank": 4, "answer": "Word", "points": 19, "score": "19" },
+        { "rank": 5, "answer": "CSV", "points": 6, "score": "6" },
+        { "rank": 6, "answer": "Excel", "points": 6, "score": "6" },
+        { "rank": 7, "answer": "JSON", "points": 5, "score": "5" }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4 (Inverted)",
+      "question": "Name the first protocol that comes to your mind",
+      "responses": [
+        { "rank": 1, "answer": "HTTP", "points": 5, "score": "90 (5 points)" },
+        { "rank": 2, "answer": "TCP", "points": 10, "score": "20 (10 points)" },
+        {
+          "rank": 3,
+          "answer": "HTTPS",
+          "points": 15,
+          "score": "16 (15 points)"
+        },
+        { "rank": 4, "answer": "FTP", "points": 20, "score": "6 (20 points)" },
+        { "rank": 5, "answer": "SSH", "points": 25, "score": "5 (25 points)" }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5",
+      "question": "1 <= N <= 20. Choose the least chosen.",
+      "responses": [
+        { "rank": 1, "answer": "17", "points": 34, "score": "34" },
+        { "rank": 2, "answer": "19", "points": 12, "score": "12" },
+        { "rank": 3, "answer": "14", "points": 12, "score": "12" },
+        { "rank": 4, "answer": "13", "points": 12, "score": "12" },
+        { "rank": 5, "answer": "8", "points": 11, "score": "11" },
+        { "rank": 6, "answer": "1", "points": 10, "score": "10" }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6",
+      "question": "Which 1 <= N <= 20 will be chosen most?",
+      "responses": [
+        { "rank": 1, "answer": "7", "points": 34, "score": "34" },
+        { "rank": 2, "answer": "1", "points": 24, "score": "24" },
+        { "rank": 3, "answer": "13", "points": 23, "score": "23" },
+        { "rank": 4, "answer": "17", "points": 18, "score": "18" },
+        { "rank": 5, "answer": "15", "points": 10, "score": "10" }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Round 7 (Double)",
+      "question": "What's the first programming-related movie that comes to your mind?",
+      "responses": [
+        {
+          "rank": 1,
+          "answer": "Hackers",
+          "points": 106,
+          "score": "53 (106 points)"
+        },
+        {
+          "rank": 2,
+          "answer": "The Matrix",
+          "points": 48,
+          "score": "24 (48 points)"
+        },
+        {
+          "rank": 3,
+          "answer": "War Games",
+          "points": 42,
+          "score": "21 (42 points)"
+        },
+        {
+          "rank": 4,
+          "answer": "The Social Network",
+          "points": 28,
+          "score": "14 (28 points)"
+        },
+        {
+          "rank": 5,
+          "answer": "Sneakers",
+          "points": 10,
+          "score": "5 (10 points)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Frontend Feud",
+  "teams": [
+    {
+      "name": "CHANGELOG",
+      "class": "one",
+      "members": [
+        {"name": "Adam", "image": "https://pbs.twimg.com/profile_images/1608315026946854915/Lw2zQWOZ_400x400.jpg"},
+        {"name": "Amy", "image": "https://pbs.twimg.com/profile_images/1300965359743369217/8QI8KoF1_400x400.jpg"},
+        {"name": "Josh", "image": "https://pbs.twimg.com/profile_images/1712196430914318336/lQk_KZW5_400x400.jpg"}
+      ]
+    },
+    {
+      "name": "JS PARTY",
+      "class": "two",
+      "members": [
+        {"name": "Nick", "image": "https://pbs.twimg.com/profile_images/1686358129083043840/i6gm4BIj_400x400.jpg"},
+        {"name": "Jess", "image": "https://pbs.twimg.com/profile_images/1725706546871521281/R2YP3yfw_400x400.jpg"},
+        {"name": "Ben", "image": "https://pbs.twimg.com/profile_images/1001705822437638144/2JzRKVvH_400x400.jpg"}
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "title": "Round 1",
+      "question": "What is your most used social network?",
+      "responses": [
+        {"rank": 1, "answer": "Twitter / X", "points": 57, "score": "57"},
+        {"rank": 2, "answer": "Mastodon / Fediverse", "points": 49, "score": "49"},
+        {"rank": 3, "answer": "Instagram", "points": 9, "score": "9"},
+        {"rank": 4, "answer": "LinkedIn", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "Reddit", "points": 6, "score": "6"},
+        {"rank": 6, "answer": "YouTube", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Round 2",
+      "question": "What is your favorite programming-related saying?",
+      "responses": [
+        {"rank": 1, "answer": "2 hard problems in CS...", "points": 16, "score": "16"},
+        {"rank": 2, "answer": "It depends", "points": 14, "score": "14"},
+        {"rank": 3, "answer": "YAGNI", "points": 9, "score": "9"},
+        {"rank": 4, "answer": "Works on my machine", "points": 8, "score": "8"},
+        {"rank": 5, "answer": "Naming things is hard", "points": 7, "score": "7"},
+        {"rank": 6, "answer": "It's not a bug, it's a feature.", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Round 3",
+      "question": "What is your beverage of choice while coding?",
+      "responses": [
+        {"rank": 1, "answer": "Coffee", "points": 60, "score": "60"},
+        {"rank": 2, "answer": "Water", "points": 32, "score": "32"},
+        {"rank": 3, "answer": "Tea", "points": 17, "score": "17"},
+        {"rank": 4, "answer": "Soda / Pop", "points": 7, "score": "7"},
+        {"rank": 5, "answer": "Seltzer / LaCroix", "points": 5, "score": "5"}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Round 4 (Inverted)",
+      "question": "In a word, how often do you write software?",
+      "responses": [
+        {"rank": 1, "answer": "Daily", "points": 5, "score": "107 (5 points)"},
+        {"rank": 2, "answer": "Weekly", "points": 10, "score": "14 (10 points)"},
+        {"rank": 3, "answer": "Often", "points": 15, "score": "8 (15 points)"},
+        {"rank": 4, "answer": "Weekdays", "points": 20, "score": "7 (20 points)"},
+        {"rank": 5, "answer": "Rarely / Seldom", "points": 25, "score": "5 (25 points)"}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Round 5 (Double)",
+      "question": "In a word, how do you feel about the web's future?",
+      "responses": [
+        {"rank": 1, "answer": "Optimistic", "points": 44, "score": "22 (44 points)"},
+        {"rank": 2, "answer": "Excited", "points": 38, "score": "19 (38 points)"},
+        {"rank": 3, "answer": "Hopeful", "points": 20, "score": "10 (20 points)"},
+        {"rank": 4, "answer": "Worried", "points": 12, "score": "6 (12 points)"},
+        {"rank": 5, "answer": "Curious", "points": 8, "score": "4 (8 points)"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Round 6 (Inverted Double)",
+      "question": "What email app is your daily driver?",
+      "responses": [
+        {"rank": 1, "answer": "GMail", "points": 10, "score": "69 (10 points)"},
+        {"rank": 2, "answer": "Mail.app", "points": 20, "score": "27 (20 points)"},
+        {"rank": 3, "answer": "Outlook", "points": 30, "score": "19 (30 points)"},
+        {"rank": 4, "answer": "Thunderbird", "points": 40, "score": "11 (40 points)"},
+        {"rank": 5, "answer": "Spark", "points": 50, "score": "9 (50 points)"}
+      ]
+    }
+  ]
+}
