@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"html/template"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"strconv"
@@ -91,7 +90,7 @@ func index(w http.ResponseWriter, r *http.Request, game Game) {
 
 func loadGame(podcast string, episode string) Game {
 	dataPath := fmt.Sprintf("./games/%s-%s.json", podcast, episode)
-	data, err := ioutil.ReadFile(dataPath)
+	data, err := os.ReadFile(dataPath)
 
 	if err != nil {
 		fmt.Print(err)
